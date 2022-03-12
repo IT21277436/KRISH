@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- add a title (a) -->
+		<title>My Shopping Cart</title>
+
+		<!-- link to the css file -->
+		<link rel="stylesheet" href="style/styles.css">
+
+        <script>
+            document.write(Date());
+        </script>
+
+	</head>
+	<body>
+		
+		<!-- add a logo (b) -->
+		<img src="images/logo.png" alt="logo" width="200" height="200" class="logo">
+
+		<center>
+			<!-- add a header (c)-->
+			<h1 class="head1">Shopping Cart</h1>
+			<!-- add a sub-header (c) -->
+			<h3 class="head3">The Online Shopping Store</h3>
+		</center>
+		<!-- add a horizontal line (d)-->
+		<hr>
+		<!-- add a horizontal menu (e) -->
+		<ul class="navbar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="news.html">News</a></li>
+		  <li><a href="">Contact</a></li>
+		  <li><a href="">About</a></li>
+		</ul>
+		
+        <div>
+            <button type="button" id="btn1" onclick="loadData('btn1')">Iphone 13</button>
+            <button type="button" id="btn2" onclick="loadData('btn2')">Iphone 12</button>
+            <button type="button" id="btn3" onclick="loadData('btn3')">Iphone 8</button>
+            <button type="button" id="btn4" onclick="loadData('btn4')">Iphone SE</button>
+            <button type="button" id="btn5" onclick="priceForInLoop()">Average Price</button>
+            <button type="button" id="btn6" onclick="priceHigher()">Price higher than 1000</button>
+            <button type="button" id="btn7" onclick="priceLower()">Price lower than 1000</button>
+        </div>
+        <br><br>
+        <img class="logo" id="phoneimg" src="images/iphones.png" alt="Image not found" width="200px">
+        <p class="center" id="para">
+            The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system. 
+            The first-generation iPhone was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since then, Apple has 
+            annually released new iPhone models and iOS updates. As of November 1, 2018, more than 2.2 billion iPhones had been sold. 
+            The iPhone has a user interface built around a multi-touch screen. It connects to cellular networks or Wi-Fi, and can make 
+            calls, browse the web, take pictures, play music and send and receive emails and text messages. Since the iPhone's launch 
+            further features have been added, including larger screen sizes, shooting video, waterproofing, the ability to install 
+            third-party mobile apps through an app store, and many accessibility features. Up to iPhone 8 and 8 Plus, iPhones used a 
+            layout with a single button on the front panel that returns the user to the home screen. Since iPhone X, iPhone models 
+            have switched to a nearly bezel-less front screen design with app switching activated by gesture recognition.</p>
+		<!-- add a horizontal line (d)-->
+		<hr>
+		<!-- add a footer (g)-->
+		
+		<h4>Created by : Jayasinghe K.W.</h4>
+		<center>
+			<h6><a href="http://courseweb.sliit.lk">Visit to Our Course</a></h6>
+		</center>
+
+		<script src="js/myScript.js"></script>
+	</body>
+</html>
